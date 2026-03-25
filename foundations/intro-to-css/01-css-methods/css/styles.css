@@ -1,0 +1,9 @@
+/* styles.css */
+
+#ext {
+    background-color: red;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
