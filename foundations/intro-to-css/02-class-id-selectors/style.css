@@ -1,1 +1,29 @@
 /* Add CSS Styling */
+
+p {
+    background-color: pink;
+    font-family: sans-serif;
+}
+
+#n1 {
+    font-size: 2rem;
+}
+
+#n2 {
+    font-size: 4rem;
+    color: blue;
+}
+
+#n3 {
+    font-size: 3rem;
+}
+
+#n4 {
+    background-color: lightgreen;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#n5 {
+    font-size: 2rem;
+}
