@@ -67,3 +67,66 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* SOLUTION BELOW */
+
+
+.modal {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+  
+  /* margin: 2px;
+  border: 2px solid red; */
+}
+
+.left {
+  /* margin: 2px;
+  border: 2px solid blue; */
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  
+  /* margin: 2px;
+  border: 2px solid green; */
+}
+
+.right-top {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  
+  
+  /* margin: 2px;
+  border: 2px solid yellow;  */
+}
+
+.right-middle {
+  
+  /* margin: 2px;
+  border: 2px solid yellow;
+  */
+}
+
+.right-bottom {
+  
+  /* margin: 2px;
+  border: 2px solid yellow; */
+}
+
+/* 
+Red box: Modal 
+- Blue box: 
+  - .icon
+- Green box:
+  - Yellow box:
+    - .header
+    - .close-button
+  - .text 
+  - bottom box
+    - .continue
+    - .cancel
+*/
